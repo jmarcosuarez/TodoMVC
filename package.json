@@ -4,6 +4,7 @@
   "description": "See blog in http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js test/**/*.jsx",
     "test:watch": "npm run test -- --watch --watch-extensions jsx"
   },
@@ -12,11 +13,18 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
     "jsdom": "^9.6.0",
     "mocha": "^3.1.2",
     "react-hot-loader": "^3.0.0-beta.5",
