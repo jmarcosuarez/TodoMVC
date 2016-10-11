@@ -1,0 +1,12 @@
+{
+  "name": "redux-todomvc",
+  "version": "1.0.0",
+  "description": "See blog in http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Himself",
+  "license": "ISC"
+}
